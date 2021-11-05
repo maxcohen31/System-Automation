@@ -7,5 +7,4 @@ if [ $action -gt 500 ]; then
   journal --vacumm-time=2weeks
 else
   echo "Space under 500M"
-
 fi
